@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome [3], endereco[3], telefone[3]
+		inteiro contador = 0
+
+		nome[0]="João"
+		nome[1]="Maria"
+		nome[2]="Ana"
+
+		endereco[0]="São Paulo"
+		endereco[1]="Ribeirão Preto"
+		endereco[2]="Manaus"
+
+		telefone[0]="(11) 9999-5241"
+		telefone[1]="(16) 9999-8596"
+		telefone[2]="(92) 9999-8574"
+
+		faca{
+			escreva (nome [contador] + " - " + endereco [contador] + " - " + telefone [contador]+"\n")
+			contador ++
+		}enquanto (contador <=2)
+		
+		
+		
+	}
+}
